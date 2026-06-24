@@ -1,0 +1,47 @@
+{
+  "_comment": "VPN publisher prefix configuration. Replace xxx.edu.cn with your institution's VPN host.",
+  "_usage": "Used by Tier 3 (VPN + Playwright browser automation). Only needed for papers that fail Tier 1 and Tier 2.",
+
+  "10.1007": {
+    "name": "Springer",
+    "prefix": "https://webvpn.xxx.edu.cn/https/77726476706e69737468656265737421fcfe4f976923784277068ea98a1b203a54",
+    "articlePath": "/article/{doi}",
+    "pdfPattern": "a[href*='.pdf'], a:has-text('PDF')"
+  },
+  "10.1016": {
+    "name": "Elsevier/ScienceDirect",
+    "prefix": "https://webvpn.xxx.edu.cn/https/77726476706e69737468656265737421e7e056d2373e694330079bab",
+    "articlePath": "/science/article/pii/{doi_suffix}",
+    "pdfPattern": "a[href*='/science/article/pii/']"
+  },
+  "10.1002": {
+    "name": "Wiley Online Library",
+    "prefix": "https://webvpn.xxx.edu.cn/https/77726476706e69737468656265737421fcf846902a3e735b5717c8d291",
+    "articlePath": "/doi/{doi}",
+    "pdfPattern": "a[href*='/doi/pdf/']"
+  },
+  "10.1038": {
+    "name": "Nature Publishing",
+    "prefix": "https://webvpn.xxx.edu.cn/https/77726476706e69737468656265737421fcfe4f976923784277068ea98a1b203a54",
+    "articlePath": "/articles/{doi_suffix}",
+    "pdfPattern": "a[href*='.pdf']"
+  },
+  "10.1128": {
+    "name": "ASM Journals",
+    "prefix": "https://webvpn.xxx.edu.cn/https/77726476706e69737468656265737421faf8548e2931644330099aa1d65a3132",
+    "articlePath": "/doi/{doi}",
+    "pdfPattern": "a[href*='.pdf']"
+  },
+  "10.1073": {
+    "name": "PNAS",
+    "prefix": "https://webvpn.xxx.edu.cn/https/77726476706e69737468656265737421e7e056d2373e694330079bab",
+    "articlePath": "/doi/{doi}",
+    "pdfPattern": "a[href*='.pdf']"
+  },
+  "10.1021": {
+    "name": "ACS Publications",
+    "prefix": "https://webvpn.xxx.edu.cn/https/77726476706e69737468656265737421e7e056d2373e694330079bab",
+    "articlePath": "/doi/{doi}",
+    "pdfPattern": "a[href*='.pdf']"
+  }
+}
