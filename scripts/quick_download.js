@@ -7,9 +7,9 @@ const fs = require('fs');
 const path = require('path');
 
 const PREFIXES = {
-  springer: 'https://webvpn.xmu.edu.cn/https/77726476706e69737468656265737421fcfe4f976923784277068ea98a1b203a54',
-  asm: 'https://webvpn.xmu.edu.cn/https/77726476706e69737468656265737421faf8548e2931644330099aa1d65a3132',
-  pnas: 'https://webvpn.xmu.edu.cn/https/77726476706e69737468656265737421e7e056d2373e694330079bab',
+  springer: 'https://webvpn.YOUR_INSTITUTION.edu.cn/https/REPLACE_WITH_YOUR_SPRINGER_PREFIX',
+  asm: 'https://webvpn.YOUR_INSTITUTION.edu.cn/https/REPLACE_WITH_YOUR_ASM_PREFIX',
+  pnas: 'https://webvpn.YOUR_INSTITUTION.edu.cn/https/REPLACE_WITH_YOUR_PNAS_PREFIX',
 };
 
 const CSV = path.join(__dirname, 'literature_download_status.csv');

@@ -1,6 +1,6 @@
 /**
  * download_papers.js
- * 通过厦大 VPN + Playwright 批量下载闭源期刊 PDF
+ * 通过机构 VPN + Playwright 批量下载闭源期刊 PDF
  *
  * 用法:
  *   node download_papers.js                        # 正常模式：逐篇下载全部待处理论文
